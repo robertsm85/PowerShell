@@ -9,7 +9,7 @@ start-process $BaseApplication
 
 #Tests connection to DC.
 Do {
-$Connected=test-connection -computer $Server -Count 1 -Quiet
+$Connected = test-connection -computer $Server -Count 1 -Quiet
 "Attempting to ping Domain Controller."
 }
 
