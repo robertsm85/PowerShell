@@ -1,8 +1,8 @@
 ﻿#Variables list. Replace variables and/or add more applications as needed.
 [String] $Server = "Redwing"
-[String] $BaseApplication = "vpnui.exe"
-[String] $Application1 = "lync.exe"
-[String] $Application2 = "terminals.exe"
+[String] $BaseApplication = "C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe"
+[String] $Application1 = "C:\Program Files\Microsoft Office\Office16\lync.exe"
+[String] $Application2 = "C:\Users\Mark\OneDrive\Work\Terminals\terminals.exe"
 
 #Starts Cisco VPN Client.
 start-process $BaseApplication
